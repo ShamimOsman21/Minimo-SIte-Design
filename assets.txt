@@ -1,0 +1,10 @@
+background: f0f0f0;
+
+
+cat color: b4ad9e;
+
+playfiardisplay
+
+1. prepare -> project folder :: img, css, js, index.html
+2. resource collection :: img collection, color combo, font (2/3)
+3. Google fonts integration

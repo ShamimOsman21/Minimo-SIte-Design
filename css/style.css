@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,span,button,input{
+	font-family: 'Playfair Display', serif;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	display: flow-root;
+}
+.nav{
+	width: 100%;
+	float: left;
+	padding: 48px 0px;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.menu{
+	width: 80%;
+	float: left;
+	text-align: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+	margin-left: 76px;
+}
+.menu ul li a{
+	color: #b4ad9e;
+}
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+.desc{
+	padding: 62px;
+}
+.cat{
+	color: #b4ad9e;
+}
+.title{
+	margin: 20px 0px;
+}
+.description{
+	margin-bottom: 32px;
+}
+.comment{
+	color: #b4ad9e;
+}
+.gallery{
+	width: 100%;
+	display: flow-root;
+}
+.posts{
+	padding: 62px;
+}
+.post-gallery{
+	width: 100%;
+	float: left;
+}
+.item-1{
+	width: 50%;
+	float: left;
+}
+.item-2{
+	width: 50%;
+	float: right;
+}
+.post-gallery .cat{
+	margin-top: 30px;
+}
+.item{
+	padding: 32px;
+}
+.subscribe{
+	width: 100%;
+	background-color: #f0f0f0;
+	display: flow-root;
+	padding: 80px 0px;
+	text-align: center;
+}
+form{
+	margin-top: 32px;
+	position: relative;
+}
+form input{
+	background: transparent;
+	padding: 15px 0px;
+	width: 350px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+form input:focus{
+	outline: none;
+}
+form i{
+	position: absolute;
+	top: 18px;
+	right: 400px;
+}
+.load-more{
+	text-align: center;
+}
+.load-more button{
+	padding: 18px 20px;
+	width: 220px;
+	background: transparent;
+	font-size: 22px;
+	border: none;
+	border: 1px solid black;
+	color: #b4ad9e;
+	cursor: pointer;
+}
+.footer{
+	width: 100%;
+	display: flow-root;
+	padding: 60px 0px;
+	background-color: #f0f0f0;
+}
+.footer-info{
+	width: 100%;
+	float: left;
+}
+.footer-menu{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.footer-icon{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.footer ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer ul li a{
+	color: black;
+}
+.footer-menu ul li {
+	margin-right: 20px;
+}
+.footer-icon ul li{
+	margin-left: 20px;
+}
